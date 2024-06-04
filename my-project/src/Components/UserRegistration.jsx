@@ -59,7 +59,7 @@ function UserRegistration() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post('http://localhost/signup', formData);
+      const res = await axios.post('http://localhost:5000/signup', formData);
       console.log(res.data);
     } catch (error) {
       console.log(error);

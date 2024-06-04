@@ -15,7 +15,7 @@ CREATE TABLE users(
     user_id BIGSERIAL PRIMARY KEY,
     full_name VARCHAR(150),
     contact Numeric(15, 0),
-    email VARCHAR(100) UNIQUE KEY,
+    email VARCHAR(100) UNIQUE,
     address VARCHAR(250),
     dob date,
     password VARCHAR(100)
